@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "D8322291-2603-4D3F-9564-B24BBC945D3E_1_105_c.jpeg",
+      "filename" : "dory-looking.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "dory-looking@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "dory-looking@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

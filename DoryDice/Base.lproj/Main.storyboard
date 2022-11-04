@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,16 +21,16 @@
                                 <rect key="frame" x="-538" y="0.0" width="952" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Kx5-2P-agf">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="68" width="414" height="794"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTR-Ot-fLJ" userLabel="TopView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="272"/>
+                                    <view contentMode="scaleAspectFill" horizontalCompressionResistancePriority="249" verticalCompressionResistancePriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="yTR-Ot-fLJ" userLabel="TopView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="264"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dory" translatesAutoresizingMaskIntoConstraints="NO" id="Ll5-WF-EWK">
-                                                <rect key="frame" x="87" y="72" width="240" height="128"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="Dory" translatesAutoresizingMaskIntoConstraints="NO" id="Ll5-WF-EWK">
+                                                <rect key="frame" x="103" y="-7" width="208" height="278"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="128" id="0ZE-4X-Xqu"/>
-                                                    <constraint firstAttribute="width" constant="240" id="t89-zR-RsS"/>
+                                                    <constraint firstAttribute="height" constant="278" id="rzK-g0-Uqo"/>
+                                                    <constraint firstAttribute="width" constant="208" id="sy4-bj-xXI"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
@@ -40,10 +40,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="05T-pu-P4k" userLabel="MiddleView">
-                                        <rect key="frame" x="0.0" y="273" width="414" height="272"/>
+                                        <rect key="frame" x="0.0" y="265" width="414" height="264"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="W2D-3o-WmG">
-                                                <rect key="frame" x="82" y="86" width="250" height="100"/>
+                                                <rect key="frame" x="82" y="82" width="250" height="100"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="TcO-R6-YDZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -68,19 +68,27 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJ2-DN-E0s" userLabel="BottomView">
-                                        <rect key="frame" x="0.0" y="546" width="414" height="272"/>
+                                        <rect key="frame" x="0.0" y="530" width="414" height="264"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQu-C0-zI2">
-                                                <rect key="frame" x="95" y="111" width="225" height="114"/>
+                                            <button opaque="NO" contentMode="scaleAspectFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BQu-C0-zI2">
+                                                <rect key="frame" x="142" y="82.5" width="130" height="99.5"/>
                                                 <color key="backgroundColor" red="0.65717661380000003" green="0.94067871569999995" blue="0.98545390369999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="fWl-VS-mU9"/>
-                                                    <constraint firstAttribute="height" constant="50" id="nEm-Ds-F8A"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="nEm-Ds-F8A"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="56"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Roll">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Roll">
+                                                            <attributes>
+                                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <font key="NSFont" size="48" name="Didot"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
                                                 </state>
                                                 <connections>
                                                     <action selector="rollButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T99-lb-kf4"/>
@@ -99,12 +107,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="szk-kj-Bgb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LTy-06-POQ"/>
-                            <constraint firstAttribute="trailing" secondItem="szk-kj-Bgb" secondAttribute="trailing" id="R3g-RZ-hnl"/>
-                            <constraint firstAttribute="bottom" secondItem="szk-kj-Bgb" secondAttribute="bottom" id="V18-jj-vJd"/>
+                            <constraint firstItem="szk-kj-Bgb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="R3g-RZ-hnl"/>
+                            <constraint firstItem="szk-kj-Bgb" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="V18-jj-vJd"/>
                             <constraint firstItem="Kx5-2P-agf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wv1-Xt-16k"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kx5-2P-agf" secondAttribute="trailing" id="lkW-C5-cuy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kx5-2P-agf" secondAttribute="bottom" id="qiS-Qa-1a7"/>
-                            <constraint firstItem="Kx5-2P-agf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wtS-Qw-O9d"/>
+                            <constraint firstItem="Kx5-2P-agf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lkW-C5-cuy"/>
+                            <constraint firstItem="Kx5-2P-agf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="qiS-Qa-1a7"/>
+                            <constraint firstItem="Kx5-2P-agf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="wtS-Qw-O9d"/>
                         </constraints>
                     </view>
                     <connections>
@@ -119,7 +127,7 @@
     </scenes>
     <resources>
         <image name="DiceOne" width="341" height="341"/>
-        <image name="Dory" width="3024" height="2068"/>
+        <image name="Dory" width="1037.5" height="1386.5"/>
         <image name="Gradient" width="952" height="1728"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
